@@ -259,6 +259,25 @@ namespace AdvancedCsharp_Session2
 
             #endregion
 
+            #region STACK
+
+            Stack<int> stack = new Stack<int>();
+            // Pushing elements onto the stack
+            stack.Push(1); //Push adds an element to the stack.
+            stack.Push(2);
+            stack.Push(3);
+
+            // Display the top element without removing it
+            //Console.WriteLine(stack.Peek()); //Peek returns the top element without removing it.
+            //Console.WriteLine(stack.Pop()); //Pop removes and returns the top element
+            foreach (int i in stack) 
+                Console.Write($" {i} ");
+            Console.WriteLine();
+            bool result =stack.TryPop(out int element);
+            Console.WriteLine($"Result : {result} , element : {element}");
+
+            #endregion
+
 
 
 
