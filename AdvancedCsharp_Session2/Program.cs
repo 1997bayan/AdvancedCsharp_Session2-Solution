@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Security.Cryptography;
 using System.Text.RegularExpressions;
@@ -158,7 +159,7 @@ namespace AdvancedCsharp_Session2
             //Console.WriteLine();
             //Console.WriteLine(Numbers2.IndexOf(4));
             //Performing a binary search for an element in the list
- 
+
             // Console.WriteLine(Numbers2.BinarySearch(3));
             /* 
              Binary Search:
@@ -217,7 +218,43 @@ namespace AdvancedCsharp_Session2
             //Console.WriteLine($"Last index of 10 = {Numbers3.LastIndexOf(10)}");
 
             // Reversing the order of the list
-           // Numbers2.Reverse();
+            // Numbers2.Reverse();
+
+
+            #endregion
+
+            #region Linked List
+            //// Initializing a LinkedList of integers
+            //LinkedList<int> Linkedlist = new LinkedList<int>();
+            //Console.WriteLine($"LinkedList Count = {Linkedlist.Count}");
+
+            //// Adding elements to the beginning and end of
+            //// the LinkedList
+            //Linkedlist.AddFirst(1);
+            //Console.WriteLine($"LinkedList Count = {Linkedlist.Count}"); //LinkedList Count = 1
+            //Linkedlist.AddLast(2);
+
+            //foreach (int i in Linkedlist)
+            //{
+            //    Console.Write($" {i} ");
+            //}
+            //LinkedListNode<int> AfterNode=  Linkedlist.Find(1);
+
+            //Console.WriteLine();
+            //Linkedlist.AddAfter(AfterNode, 5);
+
+            //foreach (int i in Linkedlist)
+            //{
+            //    Console.Write($" {i} ");
+            //}
+
+            //Console.WriteLine();
+            //Linkedlist.AddBefore(Linkedlist.Find(5), 500);
+            //foreach (int i in Linkedlist)
+            //{
+            //    Console.Write($" {i} ");
+            //}
+
 
 
             #endregion
